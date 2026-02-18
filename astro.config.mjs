@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://YOUR_USERNAME.github.io',
+	site: 'https://bojanstrkovski-21.github.io',
 	base: '/boki-docs',
 	integrations: [
 		starlight({
