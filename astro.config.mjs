@@ -10,15 +10,13 @@ export default defineConfig({
 		starlight({
 			title: 'Boki Docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			customCss: [
+				'./src/styles/custom.css',
+			],
 			sidebar: [
 				{
 					label: 'Linux',
-					items: [
-						{
-							label: 'Linux Script',
-							autogenerate: { directory: 'linux/Linux-script' }
-						},
-					],
+					autogenerate: { directory: 'linux' },
 				},
 				{
 					label: 'Windows',

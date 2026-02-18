@@ -1,0 +1,9 @@
+/* Target only nested folder labels (subfolders), not documents */
+.sidebar-content > ul > li > details ul details > summary {
+  font-size: 0.85rem !important;
+}
+
+/* Keep all document links at normal size */
+.sidebar-content a {
+  font-size: var(--sl-text-sm) !important;
+}
